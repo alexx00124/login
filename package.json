@@ -1,0 +1,24 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "Aprende a construir un sistema de login completo desde cero utilizando las tecnologías modernas más demandadas. Este proyecto te guiará paso a paso desde los conceptos básicos hasta una aplicación fully functional.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexx00124/login.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/alexx00124/login/issues"
+  },
+  "homepage": "https://github.com/alexx00124/login#readme",
+  "devDependencies": {
+    "prisma": "^7.3.0"
+  }
+}
