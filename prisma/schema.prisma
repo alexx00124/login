@@ -11,12 +11,12 @@ generator client {
 
 datasource db {
   provider = "postgresql"
+  url      = env("DATABASE_URL")
 }
 
 model User {
-  id        Int      @id @default(autoincrement()) //ahi tengo que quitar el autoincrement por otra cosa que no recuerdo el nombre
+  id        Int      @id @default(coid())
   email     String   @unique
   password  String
   createdAt DateTime @default(now())
 }
-
